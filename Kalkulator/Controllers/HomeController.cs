@@ -67,7 +67,7 @@ namespace Kalkulator.Controllers
                     break;
             };
 
-            ViewBag.rozwiazanie = $"Wynik działania o znaku {dane.znak} to {ViewBag.wynik}";
+            ViewBag.rozwiazanie = $"Wynik działania to {ViewBag.wynik}";
 
             return View();
         }
